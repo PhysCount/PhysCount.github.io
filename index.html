@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PhysCount: Do MLLMs Count Visual Appearances or Physical Entities?">
+  <title>PhysCount</title>
+  <link rel="stylesheet" href="research.css?v=4">
+</head>
+<body>
+  <nav aria-label="Page sections"><a href="#top" class="wordmark">PhysCount</a><div><a href="#benchmark">Benchmark</a><a href="#examples">Examples</a><a href="#results">Results</a><a href="#citation">BibTeX</a></div></nav>
+  <main id="top">
+    <header class="hero container">
+      <h1><span>PhysCount</span>: Do MLLMs Count<br>Visual Appearances or Physical Entities?</h1>
+      <div class="authors"><span>Lidong Lu<sup>1</sup></span><span>Jiaxin Lv<sup>1</sup></span><span>Liangrui Dong<sup>1</sup></span><span>Xinyi Mao<sup>1</sup></span><span>Lidong Zou<sup>1</sup></span><span>Zhenquan Li<sup>1</sup></span><span>Tong Lu<sup>1</sup></span><span>Guo Chen<sup>2</sup></span></div>
+      <p class="affiliations"><sup>1</sup>Nanjing University &emsp; <sup>2</sup>NVIDIA</p>
+      <div class="resources"><a href="https://huggingface.co/datasets/lulidong/PhysCount" target="_blank" rel="noopener noreferrer">Benchmark</a>
+      <a role="link" aria-disabled="true" title="arXiv link coming soon" style="opacity:.55;cursor:default">Paper</a></div>
+    </header>
+    <figure class="container teaser">
+      <img src="assets/teaser.png" alt="PhysCount questions distinguish the appearance count from physical entities and their correspondences.">
+      <figcaption><strong>One scene, different counting units.</strong> Visible appearances can share a physical identity. The question determines which quantities should be counted.</figcaption>
+    </figure>
+    <section class="abstract section">
+      <div class="prose"><h2>Abstract</h2><p>Images reveal appearances, but counting often asks about physical objects. A single entity may be visible directly, in several reflections, or through glass, so detecting every visible occurrence does not determine how many entities are present. Existing visual counting benchmarks rarely separate these two operations. We introduce <strong>PhysCount</strong>, a benchmark for evaluating whether multimodal large language models (MLLMs) can distinguish what appears in an image from what physically exists in the scene. PhysCount contains <strong>546 real-world images</strong> and <strong>4,595 human-written questions</strong> organized into <strong>651 target-specific groups</strong>. For each group, annotators locate the relevant appearances, label how each is observed, and identify appearances of the same entity. Four complementary question families test the enumeration of appearances, the enumeration of physical entities, image-formation-specific counting, and appearance–entity correspondence. We measure both accuracy on each family and the proportion of groups answered entirely correctly. Across 40 MLLMs, counting visible appearances is substantially easier than recovering the identities that connect them. Even the strongest model answers every question correctly in only 13.36% of groups. Performance declines when one entity produces many appearances or when its appearances cross observation modes. Higher image resolution improves access to visual evidence but brings limited gains in complete-group accuracy, whereas answering related questions jointly produces a marked improvement. These results expose a gap between recognizing what is visible and correctly recovering the physical entities behind those observations.</p></div>
+    </section>
+    <section id="benchmark" class="section container">
+      <h2>Benchmark Overview</h2>
+      <p class="prose intro">Each annotation group fixes an image and a counting target. Four question families probe different quantities derived from the same appearance–entity annotation.</p>
+      <div class="families">
+        <div><h3>Appearance</h3><p>Enumerate every visible occurrence, including reflections and appearances seen through glass.</p></div>
+        <div><h3>Entity</h3><p>Count physical objects, grouping appearances that depict the same entity when required.</p></div>
+        <div><h3>Image Formation</h3><p>Count reflected appearances or appearances observed through a transparent surface.</p></div>
+        <div><h3>Correspondence</h3><p>Reason about shared identities, visibility sets, intersections, and reflection multiplicity.</p></div>
+      </div>
+      <figure class="statistics"><img loading="lazy" src="assets/statistics_new.png" alt="Appearance–entity counts, question-type distribution, and counting-target diversity."><figcaption>546 images · 651 annotation groups · 4,595 questions · 137 counting targets</figcaption></figure>
+    </section>
+    <section id="examples" class="section examples-section">
+      <div class="container">
+        <h2>Explore the Annotations</h2>
+        <p class="prose intro">The six examples below follow the order of the paper's supplementary material. Each includes the source image, appearance annotations, entity groups, and every question and answer. Select a point to inspect its physical identity.</p>
+        <div id="example-tabs" class="example-tabs" aria-label="Example selection"></div>
+        <div class="example-heading"><h3 id="example-title"></h3><p id="example-description"></p></div>
+        <div class="example-layout">
+          <div class="visual-column">
+            <div id="annotated-image" class="annotated-image"><img id="example-image" alt=""><svg id="annotation-overlay" viewBox="0 0 100 100" preserveAspectRatio="none" aria-label="Appearance annotations"></svg></div>
+            <div class="annotation-controls"><label><input id="show-annotations" type="checkbox" checked> Show annotations</label><div class="mode-legend"><span><i class="direct"></i>Direct</span><span><i class="reflection"></i>Reflection</span><span><i class="through_glass"></i>Through glass</span></div></div>
+            <p id="identity-note" class="identity-note" aria-live="polite"></p>
+            <div id="entity-groups" class="entity-groups"></div>
+          </div>
+          <div class="qa-column"><div class="qa-heading"><h4>Questions &amp; Answers</h4><span id="qa-count"></span></div><div id="example-questions" class="questions-list"></div></div>
+        </div>
+      </div>
+    </section>
+    <section id="results" class="section container">
+      <h2>Results on PhysCount</h2>
+      <p class="prose intro">Explore all <strong>40 evaluated models</strong>. Switch the metric to compare counting errors, aggregate performance, complete-group correctness, and conditional physical grounding. Select a model to inspect its full results.</p>
+      <div class="results-toolbar">
+        <div class="metric-buttons" role="group" aria-label="Result metric"><button type="button" class="active" data-metric="Score">Score</button><button type="button" data-metric="Group-Acc">Group-Acc</button><button type="button" data-metric="Phys-Gnd">Phys-Gnd</button><button type="button" data-metric="A-NAE">Appearance</button><button type="button" data-metric="E-NAE">Entity</button><button type="button" data-metric="I-NAE">Formation</button><button type="button" data-metric="C-NAE">Correspondence</button></div>
+        <label class="search-label"><span>Find a model</span><input id="model-search" type="search" placeholder="Search models…" aria-label="Search models"></label>
+      </div>
+      <div class="results-layout">
+        <div class="model-chart"><div class="axis"><span id="model-count">40 models</span><div id="axis-ticks"></div></div><div id="model-bars" class="model-bars" aria-label="Full model comparison"></div></div>
+        <aside class="model-detail" aria-live="polite">
+          <p class="detail-label">Selected model</p><h3 id="selected-model"></h3>
+          <div id="selected-aggregate" class="selected-aggregate"></div>
+          <h4>Question-family error</h4><div id="selected-errors"></div>
+        </aside>
+      </div>
+      <div class="result-notes"><p><strong>From appearances to entities.</strong> Accurate appearance enumeration does not reliably carry over to counts defined by physical identity. Group-Acc measures how often every question in a group is answered exactly; Phys-Gnd evaluates the remaining question families after an exact appearance count.</p><p><strong>Related questions help.</strong> Joint presentation improves Qwen3.8-27B's Score from 28.84 to 40.17 and Group-Acc from 7.37 to 23.96 at the same image resolution, with the largest error reductions in entity and correspondence questions.</p></div>
+    </section>
+    <section id="citation" class="section citation"><div class="prose"><h2>BibTeX</h2><div class="bibtex"><button id="copy-citation" type="button">Copy</button><pre id="bibtex">@misc{lu2026physcount,
+  title  = {PhysCount: Do MLLMs Count Visual Appearances or Physical Entities?},
+  author = {Lidong Lu and Jiaxin Lv and Liangrui Dong and Xinyi Mao and
+            Lidong Zou and Zhenquan Li and Tong Lu and Guo Chen},
+  year   = {2026},
+  url    = {https://physcount.github.io}
+}</pre></div></div></section>
+  </main>
+  <footer>PhysCount &nbsp;·&nbsp; Nanjing University &nbsp;·&nbsp; NVIDIA</footer>
+  <script src="explorer.js?v=5"></script>
+</body>
+</html>
+                                                                     

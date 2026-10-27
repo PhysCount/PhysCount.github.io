@@ -1,0 +1,1220 @@
+{
+  "models": [
+    {
+      "name": "Gemini 3.7 Flash",
+      "A-MAE": 2.724,
+      "A-NAE": 20.08,
+      "E-MAE": 2.046,
+      "E-NAE": 27.36,
+      "I-MAE": 2.467,
+      "I-NAE": 30.62,
+      "C-MAE": 1.396,
+      "C-NAE": 33.88,
+      "Score": 36.45,
+      "Group-Acc": 13.36,
+      "Phys-Gnd": 73.0
+    },
+    {
+      "name": "GPT-5.6 Sol",
+      "A-MAE": 3.028,
+      "A-NAE": 22.82,
+      "E-MAE": 2.808,
+      "E-NAE": 36.58,
+      "I-MAE": 2.544,
+      "I-NAE": 31.94,
+      "C-MAE": 2.113,
+      "C-NAE": 52.11,
+      "Score": 21.73,
+      "Group-Acc": 3.84,
+      "Phys-Gnd": 55.65
+    },
+    {
+      "name": "GPT-6 Astra",
+      "A-MAE": 3.049,
+      "A-NAE": 24.87,
+      "E-MAE": 2.673,
+      "E-NAE": 37.72,
+      "I-MAE": 2.517,
+      "I-NAE": 30.99,
+      "C-MAE": 1.905,
+      "C-NAE": 47.83,
+      "Score": 20.77,
+      "Group-Acc": 3.38,
+      "Phys-Gnd": 51.89
+    },
+    {
+      "name": "GPT-5.6 Terra",
+      "A-MAE": 3.395,
+      "A-NAE": 26.06,
+      "E-MAE": 2.726,
+      "E-NAE": 36.39,
+      "I-MAE": 3.227,
+      "I-NAE": 37.3,
+      "C-MAE": 1.863,
+      "C-NAE": 50.99,
+      "Score": 20.42,
+      "Group-Acc": 4.3,
+      "Phys-Gnd": 53.43
+    },
+    {
+      "name": "GPT-5.6 Luna",
+      "A-MAE": 3.536,
+      "A-NAE": 28.24,
+      "E-MAE": 3.368,
+      "E-NAE": 42.24,
+      "I-MAE": 2.992,
+      "I-NAE": 35.07,
+      "C-MAE": 2.283,
+      "C-NAE": 55.98,
+      "Score": 16.87,
+      "Group-Acc": 2.92,
+      "Phys-Gnd": 46.98
+    },
+    {
+      "name": "Qwen3.8-27B",
+      "A-MAE": 3.149,
+      "A-NAE": 19.89,
+      "E-MAE": 2.511,
+      "E-NAE": 32.42,
+      "I-MAE": 2.702,
+      "I-NAE": 29.66,
+      "C-MAE": 1.685,
+      "C-NAE": 44.68,
+      "Score": 28.84,
+      "Group-Acc": 7.37,
+      "Phys-Gnd": 65.96
+    },
+    {
+      "name": "Qwen3.5-397B-A17B",
+      "A-MAE": 2.836,
+      "A-NAE": 18.99,
+      "E-MAE": 2.442,
+      "E-NAE": 33.28,
+      "I-MAE": 2.386,
+      "I-NAE": 26.88,
+      "C-MAE": 1.859,
+      "C-NAE": 46.73,
+      "Score": 27.95,
+      "Group-Acc": 5.84,
+      "Phys-Gnd": 62.16
+    },
+    {
+      "name": "Qwen3.5-122B-A10B",
+      "A-MAE": 4.192,
+      "A-NAE": 17.96,
+      "E-MAE": 2.527,
+      "E-NAE": 34.4,
+      "I-MAE": 2.603,
+      "I-NAE": 27.8,
+      "C-MAE": 2.068,
+      "C-NAE": 49.0,
+      "Score": 26.03,
+      "Group-Acc": 5.99,
+      "Phys-Gnd": 57.13
+    },
+    {
+      "name": "Qwen3.5-35B-A3B",
+      "A-MAE": 3.143,
+      "A-NAE": 18.81,
+      "E-MAE": 2.425,
+      "E-NAE": 33.44,
+      "I-MAE": 2.621,
+      "I-NAE": 28.49,
+      "C-MAE": 2.011,
+      "C-NAE": 51.51,
+      "Score": 25.7,
+      "Group-Acc": 5.99,
+      "Phys-Gnd": 58.76
+    },
+    {
+      "name": "Qwen3.5-27B",
+      "A-MAE": 4.103,
+      "A-NAE": 20.64,
+      "E-MAE": 3.216,
+      "E-NAE": 34.58,
+      "I-MAE": 3.017,
+      "I-NAE": 26.78,
+      "C-MAE": 2.942,
+      "C-NAE": 48.56,
+      "Score": 26.32,
+      "Group-Acc": 6.3,
+      "Phys-Gnd": 60.83
+    },
+    {
+      "name": "Qwen3.5-9B",
+      "A-MAE": 2.845,
+      "A-NAE": 20.04,
+      "E-MAE": 3.708,
+      "E-NAE": 36.09,
+      "I-MAE": 3.805,
+      "I-NAE": 30.05,
+      "C-MAE": 4.816,
+      "C-NAE": 53.38,
+      "Score": 23.54,
+      "Group-Acc": 5.07,
+      "Phys-Gnd": 55.41
+    },
+    {
+      "name": "Qwen3.5-4B",
+      "A-MAE": 3.321,
+      "A-NAE": 22.19,
+      "E-MAE": 4.379,
+      "E-NAE": 39.57,
+      "I-MAE": 2.729,
+      "I-NAE": 32.93,
+      "C-MAE": 3.274,
+      "C-NAE": 57.03,
+      "Score": 18.57,
+      "Group-Acc": 3.38,
+      "Phys-Gnd": 48.2
+    },
+    {
+      "name": "Gemma 4-31B",
+      "A-MAE": 3.307,
+      "A-NAE": 21.83,
+      "E-MAE": 2.7,
+      "E-NAE": 36.88,
+      "I-MAE": 2.814,
+      "I-NAE": 33.71,
+      "C-MAE": 1.879,
+      "C-NAE": 41.86,
+      "Score": 26.32,
+      "Group-Acc": 6.61,
+      "Phys-Gnd": 60.07
+    },
+    {
+      "name": "Gemma 4-26B-A4B",
+      "A-MAE": 3.257,
+      "A-NAE": 22.7,
+      "E-MAE": 2.852,
+      "E-NAE": 39.22,
+      "I-MAE": 2.936,
+      "I-NAE": 36.53,
+      "C-MAE": 1.888,
+      "C-NAE": 44.02,
+      "Score": 23.79,
+      "Group-Acc": 5.53,
+      "Phys-Gnd": 57.17
+    },
+    {
+      "name": "Gemma 4-12B",
+      "A-MAE": 3.49,
+      "A-NAE": 26.05,
+      "E-MAE": 3.044,
+      "E-NAE": 44.56,
+      "I-MAE": 3.057,
+      "I-NAE": 37.08,
+      "C-MAE": 1.982,
+      "C-NAE": 45.7,
+      "Score": 19.03,
+      "Group-Acc": 3.07,
+      "Phys-Gnd": 46.1
+    },
+    {
+      "name": "Gemma 4-E4B",
+      "A-MAE": 37.605,
+      "A-NAE": 50.27,
+      "E-MAE": 22.506,
+      "E-NAE": 64.37,
+      "I-MAE": 22.469,
+      "I-NAE": 69.95,
+      "C-MAE": 9.344,
+      "C-NAE": 65.25,
+      "Score": 2.93,
+      "Group-Acc": 0.0,
+      "Phys-Gnd": 11.9
+    },
+    {
+      "name": "Gemma 4-E2B",
+      "A-MAE": 20.343,
+      "A-NAE": 48.02,
+      "E-MAE": 8.357,
+      "E-NAE": 55.57,
+      "I-MAE": 11.088,
+      "I-NAE": 55.82,
+      "C-MAE": 4.146,
+      "C-NAE": 62.93,
+      "Score": 4.76,
+      "Group-Acc": 0.15,
+      "Phys-Gnd": 21.13
+    },
+    {
+      "name": "InternVL3.5-241B-A28B",
+      "A-MAE": 4.135,
+      "A-NAE": 30.21,
+      "E-MAE": 2.825,
+      "E-NAE": 36.24,
+      "I-MAE": 4.597,
+      "I-NAE": 36.63,
+      "C-MAE": 1.983,
+      "C-NAE": 48.11,
+      "Score": 21.04,
+      "Group-Acc": 4.92,
+      "Phys-Gnd": 60.27
+    },
+    {
+      "name": "InternVL3.5-38B",
+      "A-MAE": 4.078,
+      "A-NAE": 32.36,
+      "E-MAE": 4.52,
+      "E-NAE": 39.75,
+      "I-MAE": 10.133,
+      "I-NAE": 36.59,
+      "C-MAE": 3.837,
+      "C-NAE": 57.92,
+      "Score": 15.55,
+      "Group-Acc": 2.61,
+      "Phys-Gnd": 47.23
+    },
+    {
+      "name": "InternVL3.5-30B-A3B",
+      "A-MAE": 4.152,
+      "A-NAE": 29.51,
+      "E-MAE": 3.036,
+      "E-NAE": 38.94,
+      "I-MAE": 3.359,
+      "I-NAE": 37.29,
+      "C-MAE": 2.108,
+      "C-NAE": 52.08,
+      "Score": 17.76,
+      "Group-Acc": 2.61,
+      "Phys-Gnd": 53.91
+    },
+    {
+      "name": "InternVL3.5-14B",
+      "A-MAE": 4.158,
+      "A-NAE": 29.13,
+      "E-MAE": 2.855,
+      "E-NAE": 40.02,
+      "I-MAE": 3.483,
+      "I-NAE": 38.22,
+      "C-MAE": 2.099,
+      "C-NAE": 57.32,
+      "Score": 15.2,
+      "Group-Acc": 1.84,
+      "Phys-Gnd": 44.22
+    },
+    {
+      "name": "InternVL3.5-8B",
+      "A-MAE": 3.938,
+      "A-NAE": 27.82,
+      "E-MAE": 3.011,
+      "E-NAE": 41.68,
+      "I-MAE": 3.67,
+      "I-NAE": 42.16,
+      "C-MAE": 2.233,
+      "C-NAE": 57.78,
+      "Score": 14.29,
+      "Group-Acc": 1.84,
+      "Phys-Gnd": 47.08
+    },
+    {
+      "name": "InternVL3.5-4B",
+      "A-MAE": 7.018,
+      "A-NAE": 38.11,
+      "E-MAE": 3.452,
+      "E-NAE": 48.83,
+      "I-MAE": 3.685,
+      "I-NAE": 39.85,
+      "C-MAE": 2.773,
+      "C-NAE": 65.97,
+      "Score": 9.53,
+      "Group-Acc": 1.23,
+      "Phys-Gnd": 36.93
+    },
+    {
+      "name": "Muse-Glimmer-30B",
+      "A-MAE": 2.943,
+      "A-NAE": 20.31,
+      "E-MAE": 2.478,
+      "E-NAE": 32.1,
+      "I-MAE": 2.405,
+      "I-NAE": 28.69,
+      "C-MAE": 1.608,
+      "C-NAE": 43.04,
+      "Score": 29.61,
+      "Group-Acc": 7.83,
+      "Phys-Gnd": 65.51
+    },
+    {
+      "name": "DeepSeek-V4-Flash-Vision",
+      "A-MAE": 4.321,
+      "A-NAE": 30.52,
+      "E-MAE": 2.814,
+      "E-NAE": 36.12,
+      "I-MAE": 3.406,
+      "I-NAE": 37.19,
+      "C-MAE": 1.864,
+      "C-NAE": 48.56,
+      "Score": 20.74,
+      "Group-Acc": 5.22,
+      "Phys-Gnd": 61.61
+    },
+    {
+      "name": "MiniMax-M3-428B-A23B",
+      "A-MAE": 3.888,
+      "A-NAE": 29.28,
+      "E-MAE": 2.989,
+      "E-NAE": 39.05,
+      "I-MAE": 3.739,
+      "I-NAE": 39.57,
+      "C-MAE": 1.975,
+      "C-NAE": 52.65,
+      "Score": 17.43,
+      "Group-Acc": 3.69,
+      "Phys-Gnd": 52.5
+    },
+    {
+      "name": "MiniCPM-V 4.5-8B",
+      "A-MAE": 4.528,
+      "A-NAE": 32.52,
+      "E-MAE": 2.828,
+      "E-NAE": 38.82,
+      "I-MAE": 3.426,
+      "I-NAE": 39.32,
+      "C-MAE": 2.176,
+      "C-NAE": 58.4,
+      "Score": 14.9,
+      "Group-Acc": 2.76,
+      "Phys-Gnd": 51.28
+    },
+    {
+      "name": "MiniCPM-V 4.6-1.3B",
+      "A-MAE": 5.72,
+      "A-NAE": 39.9,
+      "E-MAE": 3.34,
+      "E-NAE": 43.56,
+      "I-MAE": 3.694,
+      "I-NAE": 42.36,
+      "C-MAE": 2.252,
+      "C-NAE": 57.22,
+      "Score": 12.4,
+      "Group-Acc": 2.15,
+      "Phys-Gnd": 45.11
+    },
+    {
+      "name": "Cosmos3-Super-64B",
+      "A-MAE": 4.144,
+      "A-NAE": 28.29,
+      "E-MAE": 3.003,
+      "E-NAE": 37.39,
+      "I-MAE": 3.051,
+      "I-NAE": 33.5,
+      "C-MAE": 2.339,
+      "C-NAE": 64.08,
+      "Score": 14.69,
+      "Group-Acc": 1.38,
+      "Phys-Gnd": 45.67
+    },
+    {
+      "name": "Cosmos3-Nano-16B",
+      "A-MAE": 6.002,
+      "A-NAE": 30.81,
+      "E-MAE": 3.239,
+      "E-NAE": 41.23,
+      "I-MAE": 3.311,
+      "I-NAE": 36.84,
+      "C-MAE": 2.548,
+      "C-NAE": 68.01,
+      "Score": 12.08,
+      "Group-Acc": 2.15,
+      "Phys-Gnd": 36.23
+    },
+    {
+      "name": "Cosmos3-Edge-4B",
+      "A-MAE": 5.332,
+      "A-NAE": 37.23,
+      "E-MAE": 4.005,
+      "E-NAE": 43.59,
+      "I-MAE": 3.555,
+      "I-NAE": 41.68,
+      "C-MAE": 3.209,
+      "C-NAE": 65.98,
+      "Score": 9.27,
+      "Group-Acc": 0.77,
+      "Phys-Gnd": 32.42
+    },
+    {
+      "name": "Ovis2.6-80B-A3B",
+      "A-MAE": 4.132,
+      "A-NAE": 31.39,
+      "E-MAE": 3.089,
+      "E-NAE": 39.59,
+      "I-MAE": 3.313,
+      "I-NAE": 37.88,
+      "C-MAE": 2.302,
+      "C-NAE": 58.7,
+      "Score": 14.93,
+      "Group-Acc": 2.15,
+      "Phys-Gnd": 46.79
+    },
+    {
+      "name": "Ovis2.6-30B-A3B",
+      "A-MAE": 8.207,
+      "A-NAE": 58.71,
+      "E-MAE": 5.285,
+      "E-NAE": 66.79,
+      "I-MAE": 5.397,
+      "I-NAE": 64.98,
+      "C-MAE": 2.404,
+      "C-NAE": 63.92,
+      "Score": 3.8,
+      "Group-Acc": 0.46,
+      "Phys-Gnd": 32.38
+    },
+    {
+      "name": "Molmo2-4B",
+      "A-MAE": 4.284,
+      "A-NAE": 27.98,
+      "E-MAE": 3.442,
+      "E-NAE": 38.45,
+      "I-MAE": 3.372,
+      "I-NAE": 34.68,
+      "C-MAE": 2.2,
+      "C-NAE": 63.45,
+      "Score": 14.96,
+      "Group-Acc": 1.84,
+      "Phys-Gnd": 47.21
+    },
+    {
+      "name": "Molmo2-8B",
+      "A-MAE": 4.174,
+      "A-NAE": 29.3,
+      "E-MAE": 3.209,
+      "E-NAE": 37.5,
+      "I-MAE": 2.996,
+      "I-NAE": 34.35,
+      "C-MAE": 2.484,
+      "C-NAE": 65.41,
+      "Score": 13.13,
+      "Group-Acc": 0.92,
+      "Phys-Gnd": 42.99
+    },
+    {
+      "name": "ERNIE 4.5 VL-28B-A3B",
+      "A-MAE": 4.682,
+      "A-NAE": 32.62,
+      "E-MAE": 3.269,
+      "E-NAE": 43.29,
+      "I-MAE": 3.621,
+      "I-NAE": 40.53,
+      "C-MAE": 2.537,
+      "C-NAE": 58.93,
+      "Score": 13.08,
+      "Group-Acc": 1.69,
+      "Phys-Gnd": 42.92
+    },
+    {
+      "name": "Phi-4-Reasoning-Vision-15B",
+      "A-MAE": 3.779,
+      "A-NAE": 30.31,
+      "E-MAE": 3.461,
+      "E-NAE": 47.21,
+      "I-MAE": 3.681,
+      "I-NAE": 43.79,
+      "C-MAE": 2.425,
+      "C-NAE": 60.2,
+      "Score": 11.25,
+      "Group-Acc": 0.61,
+      "Phys-Gnd": 38.63
+    },
+    {
+      "name": "LLaVA-OneVision 2-8B",
+      "A-MAE": 3.69,
+      "A-NAE": 28.7,
+      "E-MAE": 2.948,
+      "E-NAE": 42.56,
+      "I-MAE": 3.475,
+      "I-NAE": 39.05,
+      "C-MAE": 2.749,
+      "C-NAE": 67.94,
+      "Score": 10.51,
+      "Group-Acc": 1.08,
+      "Phys-Gnd": 33.74
+    },
+    {
+      "name": "Granite Vision 4.1-4B",
+      "A-MAE": 4.152,
+      "A-NAE": 34.73,
+      "E-MAE": 3.437,
+      "E-NAE": 45.38,
+      "I-MAE": 3.836,
+      "I-NAE": 41.51,
+      "C-MAE": 2.266,
+      "C-NAE": 67.96,
+      "Score": 9.02,
+      "Group-Acc": 0.61,
+      "Phys-Gnd": 32.62
+    },
+    {
+      "name": "Mistral Small 4-119B",
+      "A-MAE": 5.582,
+      "A-NAE": 44.59,
+      "E-MAE": 3.526,
+      "E-NAE": 53.29,
+      "I-MAE": 3.908,
+      "I-NAE": 49.46,
+      "C-MAE": 2.66,
+      "C-NAE": 69.42,
+      "Score": 5.87,
+      "Group-Acc": 0.0,
+      "Phys-Gnd": 26.18
+    }
+  ],
+  "human": {
+    "name": "Human (5-person avg.)",
+    "A-MAE": 0.037,
+    "A-NAE": 0.59,
+    "E-MAE": 0.023,
+    "E-NAE": 0.83,
+    "I-MAE": 0.035,
+    "I-NAE": 1.05,
+    "C-MAE": 0.033,
+    "C-NAE": 2.21,
+    "Score": 97.1,
+    "Group-Acc": 95.98,
+    "Phys-Gnd": 99.49
+  },
+  "metrics": [
+    "A-MAE",
+    "A-NAE",
+    "E-MAE",
+    "E-NAE",
+    "I-MAE",
+    "I-NAE",
+    "C-MAE",
+    "C-NAE",
+    "Score",
+    "Group-Acc",
+    "Phys-Gnd"
+  ],
+  "examples": [
+    {
+      "target": "01",
+      "title": "Example 1",
+      "description": "",
+      "image": "assets/examples/01.webp",
+      "width": 720,
+      "height": 540,
+      "appearances": [
+        {
+          "appearance_id": "a001",
+          "entity_id": "e001",
+          "mode": "direct",
+          "x": 0.577844,
+          "y": 0.686627
+        },
+        {
+          "appearance_id": "a002",
+          "entity_id": "e001",
+          "mode": "reflection",
+          "x": 0.685629,
+          "y": 0.287425
+        },
+        {
+          "appearance_id": "a003",
+          "entity_id": "e002",
+          "mode": "through_glass",
+          "x": 0.19012,
+          "y": 0.303393
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "pc_q_00280",
+          "group_id": "pc_g_0041",
+          "image_id": "000036",
+          "image": "images/000036.jpg",
+          "question_type": "appearance",
+          "question": "Counting both the cats physically present in the photo, including any seen through the glass door, and the cat reflections on the glass door, how many times do cats appear in total?",
+          "answer": 3
+        },
+        {
+          "question_id": "pc_q_00283",
+          "group_id": "pc_g_0041",
+          "image_id": "000036",
+          "image": "images/000036.jpg",
+          "question_type": "entity",
+          "question": "How many different cats are actually in the scene photographed?",
+          "answer": 2
+        },
+        {
+          "question_id": "pc_q_00281",
+          "group_id": "pc_g_0041",
+          "image_id": "000036",
+          "image": "images/000036.jpg",
+          "question_type": "image_formation",
+          "question": "How many cat reflections are visible on the glass door?",
+          "answer": 1
+        },
+        {
+          "question_id": "pc_q_00282",
+          "group_id": "pc_g_0041",
+          "image_id": "000036",
+          "image": "images/000036.jpg",
+          "question_type": "image_formation",
+          "question": "How many cats can be seen through the glass door that extends horizontally across the image?",
+          "answer": 1
+        },
+        {
+          "question_id": "pc_q_00284",
+          "group_id": "pc_g_0041",
+          "image_id": "000036",
+          "image": "images/000036.jpg",
+          "question_type": "correspondence",
+          "question": "Among the cats on the same side of the glass door as the photographer, how many do not form a reflection on the glass door?",
+          "answer": 0
+        },
+        {
+          "question_id": "pc_q_00285",
+          "group_id": "pc_g_0041",
+          "image_id": "000036",
+          "image": "images/000036.jpg",
+          "question_type": "correspondence",
+          "question": "What is the maximum number of reflections of a single cat on the glass door?",
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "target": "02",
+      "title": "Example 2",
+      "description": "",
+      "image": "assets/examples/02.webp",
+      "width": 640,
+      "height": 623,
+      "appearances": [
+        {
+          "appearance_id": "a001",
+          "entity_id": "e001",
+          "mode": "direct",
+          "x": 0.414971,
+          "y": 0.2417
+        },
+        {
+          "appearance_id": "a002",
+          "entity_id": "e001",
+          "mode": "reflection",
+          "x": 0.261135,
+          "y": 0.363878
+        },
+        {
+          "appearance_id": "a003",
+          "entity_id": "e001",
+          "mode": "reflection",
+          "x": 0.175813,
+          "y": 0.407703
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "pc_q_03513",
+          "group_id": "pc_g_0506",
+          "image_id": "000422",
+          "image": "images/000422.jpg",
+          "question_type": "appearance",
+          "question": "How many visible appearances of people are there in total in the photo, including the people on the stage and their reflections in the mirror?",
+          "answer": 3
+        },
+        {
+          "question_id": "pc_q_03514",
+          "group_id": "pc_g_0506",
+          "image_id": "000422",
+          "image": "images/000422.jpg",
+          "question_type": "entity",
+          "question": "How many people physically occupy space on the stage, excluding their reflections in the mirror?",
+          "answer": 1
+        },
+        {
+          "question_id": "pc_q_03516",
+          "group_id": "pc_g_0506",
+          "image_id": "000422",
+          "image": "images/000422.jpg",
+          "question_type": "entity",
+          "question": "How many different people are actually in the scene captured in this photo?",
+          "answer": 1
+        },
+        {
+          "question_id": "pc_q_03515",
+          "group_id": "pc_g_0506",
+          "image_id": "000422",
+          "image": "images/000422.jpg",
+          "question_type": "image_formation",
+          "question": "How many people's reflections are shown in the mirror in total?",
+          "answer": 2
+        },
+        {
+          "question_id": "pc_q_03517",
+          "group_id": "pc_g_0506",
+          "image_id": "000422",
+          "image": "images/000422.jpg",
+          "question_type": "correspondence",
+          "question": "How many people appear only in the physical space of the stage, with no reflection in the mirror?",
+          "answer": 0
+        },
+        {
+          "question_id": "pc_q_03518",
+          "group_id": "pc_g_0506",
+          "image_id": "000422",
+          "image": "images/000422.jpg",
+          "question_type": "correspondence",
+          "question": "How many people are visible only as reflections in the mirror, with no corresponding person visible in the physical space of the stage?",
+          "answer": 0
+        },
+        {
+          "question_id": "pc_q_03519",
+          "group_id": "pc_g_0506",
+          "image_id": "000422",
+          "image": "images/000422.jpg",
+          "question_type": "correspondence",
+          "question": "How many people appear both in the physical space of the stage and in the mirror?",
+          "answer": 1
+        },
+        {
+          "question_id": "pc_q_03520",
+          "group_id": "pc_g_0506",
+          "image_id": "000422",
+          "image": "images/000422.jpg",
+          "question_type": "correspondence",
+          "question": "What is the maximum number of reflections of the same person shown in the mirror?",
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "target": "03",
+      "title": "Example 3",
+      "description": "",
+      "image": "assets/examples/03.webp",
+      "width": 3072,
+      "height": 1728,
+      "appearances": [
+        {
+          "appearance_id": "a001",
+          "entity_id": "e001",
+          "mode": "direct",
+          "x": 0.734068,
+          "y": 0.825247
+        },
+        {
+          "appearance_id": "a002",
+          "entity_id": "e001",
+          "mode": "reflection",
+          "x": 0.149489,
+          "y": 0.453186
+        },
+        {
+          "appearance_id": "a003",
+          "entity_id": "e001",
+          "mode": "reflection",
+          "x": 0.374508,
+          "y": 0.303523
+        },
+        {
+          "appearance_id": "a004",
+          "entity_id": "e001",
+          "mode": "reflection",
+          "x": 0.848938,
+          "y": 0.426611
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "pc_q_00854",
+          "group_id": "pc_g_0126",
+          "image_id": "000106",
+          "image": "images/000106.jpg",
+          "question_type": "appearance",
+          "question": "How many visible person appearances are there in the photo in total?",
+          "answer": 4
+        },
+        {
+          "question_id": "pc_q_00856",
+          "group_id": "pc_g_0126",
+          "image_id": "000106",
+          "image": "images/000106.jpg",
+          "question_type": "entity",
+          "question": "How many people are physically present in the photo?",
+          "answer": 1
+        },
+        {
+          "question_id": "pc_q_00857",
+          "group_id": "pc_g_0126",
+          "image_id": "000106",
+          "image": "images/000106.jpg",
+          "question_type": "entity",
+          "question": "Not counting multiple images of the same person as different people, how many distinct people are there in the photo?",
+          "answer": 1
+        },
+        {
+          "question_id": "pc_q_00855",
+          "group_id": "pc_g_0126",
+          "image_id": "000106",
+          "image": "images/000106.jpg",
+          "question_type": "image_formation",
+          "question": "How many mirror images of people are visible in the photo?",
+          "answer": 3
+        },
+        {
+          "question_id": "pc_q_00858",
+          "group_id": "pc_g_0126",
+          "image_id": "000106",
+          "image": "images/000106.jpg",
+          "question_type": "correspondence",
+          "question": "How many people are both physically present and visible in the mirror?",
+          "answer": 1
+        },
+        {
+          "question_id": "pc_q_00859",
+          "group_id": "pc_g_0126",
+          "image_id": "000106",
+          "image": "images/000106.jpg",
+          "question_type": "correspondence",
+          "question": "How many people are visible only as reflections in the mirror, with no corresponding person physically present in the photo?",
+          "answer": 0
+        },
+        {
+          "question_id": "pc_q_00860",
+          "group_id": "pc_g_0126",
+          "image_id": "000106",
+          "image": "images/000106.jpg",
+          "question_type": "correspondence",
+          "question": "How many people have multiple mirror images?",
+          "answer": 1
+        },
+        {
+          "question_id": "pc_q_00861",
+          "group_id": "pc_g_0126",
+          "image_id": "000106",
+          "image": "images/000106.jpg",
+          "question_type": "correspondence",
+          "question": "What is the maximum number of mirror images of the same person that appear in the photo at the same time?",
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "target": "04",
+      "title": "Example 4",
+      "description": "",
+      "image": "assets/examples/04.webp",
+      "width": 1920,
+      "height": 1280,
+      "appearances": [
+        {
+          "appearance_id": "a001",
+          "entity_id": "e001",
+          "mode": "direct",
+          "x": 0.515189,
+          "y": 0.496879
+        },
+        {
+          "appearance_id": "a002",
+          "entity_id": "e001",
+          "mode": "reflection",
+          "x": 0.893883,
+          "y": 0.313358
+        },
+        {
+          "appearance_id": "a003",
+          "entity_id": "e001",
+          "mode": "reflection",
+          "x": 0.560965,
+          "y": 0.127341
+        },
+        {
+          "appearance_id": "a004",
+          "entity_id": "e001",
+          "mode": "reflection",
+          "x": 0.568456,
+          "y": 0.937578
+        },
+        {
+          "appearance_id": "a005",
+          "entity_id": "e001",
+          "mode": "reflection",
+          "x": 0.217228,
+          "y": 0.837703
+        },
+        {
+          "appearance_id": "a006",
+          "entity_id": "e001",
+          "mode": "reflection",
+          "x": 0.932168,
+          "y": 0.72035
+        },
+        {
+          "appearance_id": "a007",
+          "entity_id": "e001",
+          "mode": "reflection",
+          "x": 0.216396,
+          "y": 0.320849
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "pc_q_02548",
+          "group_id": "pc_g_0366",
+          "image_id": "000313",
+          "image": "images/000313.jpg",
+          "question_type": "appearance",
+          "question": "Counting both the dice physically present in the photo and the mirror reflections, how many dice appear in total?",
+          "answer": 7
+        },
+        {
+          "question_id": "pc_q_02549",
+          "group_id": "pc_g_0366",
+          "image_id": "000313",
+          "image": "images/000313.jpg",
+          "question_type": "entity",
+          "question": "How many dice are physically present in the photo?",
+          "answer": 1
+        },
+        {
+          "question_id": "pc_q_02553",
+          "group_id": "pc_g_0366",
+          "image_id": "000313",
+          "image": "images/000313.jpg",
+          "question_type": "entity",
+          "question": "How many distinct dice are actually in the scene captured by this photo?",
+          "answer": 1
+        },
+        {
+          "question_id": "pc_q_02550",
+          "group_id": "pc_g_0366",
+          "image_id": "000313",
+          "image": "images/000313.jpg",
+          "question_type": "image_formation",
+          "question": "How many mirror reflections of dice are there in the photo?",
+          "answer": 6
+        },
+        {
+          "question_id": "pc_q_02551",
+          "group_id": "pc_g_0366",
+          "image_id": "000313",
+          "image": "images/000313.jpg",
+          "question_type": "correspondence",
+          "question": "How many dice have more than one reflection in the mirror?",
+          "answer": 1
+        },
+        {
+          "question_id": "pc_q_02552",
+          "group_id": "pc_g_0366",
+          "image_id": "000313",
+          "image": "images/000313.jpg",
+          "question_type": "correspondence",
+          "question": "How many dice are physically present in the photo but do not appear in the mirror?",
+          "answer": 0
+        },
+        {
+          "question_id": "pc_q_02554",
+          "group_id": "pc_g_0366",
+          "image_id": "000313",
+          "image": "images/000313.jpg",
+          "question_type": "correspondence",
+          "question": "What is the maximum number of reflections formed in the mirror by the same die?",
+          "answer": 6
+        }
+      ]
+    },
+    {
+      "target": "05",
+      "title": "Example 5",
+      "description": "",
+      "image": "assets/examples/05.webp",
+      "width": 720,
+      "height": 480,
+      "appearances": [
+        {
+          "appearance_id": "a001",
+          "entity_id": "e001",
+          "mode": "direct",
+          "x": 0.590221,
+          "y": 0.628347
+        },
+        {
+          "appearance_id": "a002",
+          "entity_id": "e002",
+          "mode": "direct",
+          "x": 0.447031,
+          "y": 0.581199
+        },
+        {
+          "appearance_id": "a003",
+          "entity_id": "e001",
+          "mode": "reflection",
+          "x": 0.796275,
+          "y": 0.527066
+        },
+        {
+          "appearance_id": "a004",
+          "entity_id": "e002",
+          "mode": "reflection",
+          "x": 0.648428,
+          "y": 0.371653
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "pc_q_01702",
+          "group_id": "pc_g_0245",
+          "image_id": "000207",
+          "image": "images/000207.jpg",
+          "question_type": "appearance",
+          "question": "How many shoes appear in total, counting both the shoes occupying physical space in the photo and their reflections in the mirror on the right?",
+          "answer": 4
+        },
+        {
+          "question_id": "pc_q_01703",
+          "group_id": "pc_g_0245",
+          "image_id": "000207",
+          "image": "images/000207.jpg",
+          "question_type": "entity",
+          "question": "How many shoes in the photo occupy physical space?",
+          "answer": 2
+        },
+        {
+          "question_id": "pc_q_01705",
+          "group_id": "pc_g_0245",
+          "image_id": "000207",
+          "image": "images/000207.jpg",
+          "question_type": "entity",
+          "question": "How many different shoes are actually in the scene captured in this photo?",
+          "answer": 2
+        },
+        {
+          "question_id": "pc_q_01704",
+          "group_id": "pc_g_0245",
+          "image_id": "000207",
+          "image": "images/000207.jpg",
+          "question_type": "image_formation",
+          "question": "How many shoes are reflected in the mirror on the right?",
+          "answer": 2
+        },
+        {
+          "question_id": "pc_q_01706",
+          "group_id": "pc_g_0245",
+          "image_id": "000207",
+          "image": "images/000207.jpg",
+          "question_type": "correspondence",
+          "question": "How many shoes occupy physical space but have no corresponding reflection in the mirror on the right?",
+          "answer": 0
+        },
+        {
+          "question_id": "pc_q_01707",
+          "group_id": "pc_g_0245",
+          "image_id": "000207",
+          "image": "images/000207.jpg",
+          "question_type": "correspondence",
+          "question": "How many shoes appear only in the mirror on the right, with no corresponding shoes occupying physical space in the photo?",
+          "answer": 0
+        },
+        {
+          "question_id": "pc_q_01708",
+          "group_id": "pc_g_0245",
+          "image_id": "000207",
+          "image": "images/000207.jpg",
+          "question_type": "correspondence",
+          "question": "How many shoes both occupy physical space in the photo and appear as reflections in the mirror on the right?",
+          "answer": 2
+        },
+        {
+          "question_id": "pc_q_01709",
+          "group_id": "pc_g_0245",
+          "image_id": "000207",
+          "image": "images/000207.jpg",
+          "question_type": "correspondence",
+          "question": "What is the maximum number of times the same shoe appears as a reflection in the mirror on the right?",
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "target": "06",
+      "title": "Example 6",
+      "description": "",
+      "image": "assets/examples/06.webp",
+      "width": 4913,
+      "height": 3628,
+      "appearances": [
+        {
+          "appearance_id": "a001",
+          "entity_id": "e001",
+          "mode": "direct",
+          "x": 0.508513,
+          "y": 0.424241
+        },
+        {
+          "appearance_id": "a002",
+          "entity_id": "e001",
+          "mode": "reflection",
+          "x": 0.141884,
+          "y": 0.41963
+        },
+        {
+          "appearance_id": "a003",
+          "entity_id": "e001",
+          "mode": "reflection",
+          "x": 0.866061,
+          "y": 0.421167
+        }
+      ],
+      "questions": [
+        {
+          "question_id": "pc_q_00934",
+          "group_id": "pc_g_0137",
+          "image_id": "000117",
+          "image": "images/000117.jpg",
+          "question_type": "appearance",
+          "question": "How many cameras appear in total in the photo?",
+          "answer": 3
+        },
+        {
+          "question_id": "pc_q_00936",
+          "group_id": "pc_g_0137",
+          "image_id": "000117",
+          "image": "images/000117.jpg",
+          "question_type": "entity",
+          "question": "How many cameras occupy physical positions in the photo?",
+          "answer": 1
+        },
+        {
+          "question_id": "pc_q_00937",
+          "group_id": "pc_g_0137",
+          "image_id": "000117",
+          "image": "images/000117.jpg",
+          "question_type": "entity",
+          "question": "How many different cameras are in the photo?",
+          "answer": 1
+        },
+        {
+          "question_id": "pc_q_00935",
+          "group_id": "pc_g_0137",
+          "image_id": "000117",
+          "image": "images/000117.jpg",
+          "question_type": "image_formation",
+          "question": "How many cameras appear in the mirror in the photo?",
+          "answer": 2
+        },
+        {
+          "question_id": "pc_q_00938",
+          "group_id": "pc_g_0137",
+          "image_id": "000117",
+          "image": "images/000117.jpg",
+          "question_type": "correspondence",
+          "question": "How many cameras appear both in a physical position and in the mirror?",
+          "answer": 1
+        },
+        {
+          "question_id": "pc_q_00939",
+          "group_id": "pc_g_0137",
+          "image_id": "000117",
+          "image": "images/000117.jpg",
+          "question_type": "correspondence",
+          "question": "What is the maximum number of mirror images that any single camera has in the photo at the same time?",
+          "answer": 2
+        }
+      ]
+    }
+  ]
+}
